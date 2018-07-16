@@ -34,3 +34,22 @@
 #textoImagem{
     font-size: 20px;
 }
+#botao{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    padding:20px;
+    background:#47d3a0;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    padding: 19px 44px 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: solid 1px transparent;
+}
+#botao:hover{
+    background: #080d0e;
+}
