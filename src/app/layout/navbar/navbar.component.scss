@@ -10,10 +10,14 @@ ul{
     font-weight: 700;
     text-transform: uppercase;
 }
-li:hover{
+.itens-navbar:hover{
  font-size: 18px;
- color: #333333;;
+ color: #47d3a0;;
  background: transparent;
+ border: solid 2px;
+ border-color: #47d3a0;
+ padding:10px;
+
 }
 .espaco{
     margin-left: 300px;
