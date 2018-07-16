@@ -1,6 +1,7 @@
 # CoursesWebSite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+![image](https://user-images.githubusercontent.com/33549496/42743222-6325600c-8898-11e8-85c1-ad3e3a5a8b30.png)
 
 ## Development server
 
