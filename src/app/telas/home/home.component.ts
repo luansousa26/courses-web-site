@@ -13,9 +13,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.imagensDisponiveis = [
-      'assets/imagem1.jpg',
-      'assets/imagem2.jpg',
-      'assets/imagem3.jpg'
+      'assets/background/imagem1.jpg',
+      'assets/background/imagem2.jpg',
+      'assets/background/imagem3.jpg'
     ];
     this.startTimer();
   }
@@ -31,7 +31,9 @@ export class HomeComponent implements OnInit {
   }
 
   startTimer() {
-    setInterval(this.displayNextImage(), 3000);
+    setInterval(() => {
+      this.displayNextImage();
+    }, 7000);
   }
 
 }
