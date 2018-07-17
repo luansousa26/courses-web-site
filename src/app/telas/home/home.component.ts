@@ -21,13 +21,18 @@ export class HomeComponent implements OnInit {
   }
 
   displayNextImage() {
+    (<HTMLImageElement>document.getElementById('img')).style.opacity = '0.1';
+    (<HTMLImageElement>document.getElementById('img')).style.transition = 'opacity 1s linear';
+   setTimeout(() => {
     this.controlador = (this.controlador === this.imagensDisponiveis.length - 1) ? 0 : this.controlador + 1;
     (<HTMLImageElement>document.getElementById('img')).src = this.imagensDisponiveis[this.controlador];
+    (<HTMLImageElement>document.getElementById('img')).style.opacity = '1';
+   }, 600);
   }
 
   displayPreviousImage() {
     this.controlador = (this.controlador <= 0) ? this.imagensDisponiveis.length - 1 : this.controlador - 1;
-    (<HTMLImageElement>document.getElementById("img")).src = this.imagensDisponiveis[this.controlador];
+    (<HTMLImageElement>document.getElementById('img')).src = this.imagensDisponiveis[this.controlador];
   }
 
   startTimer() {
