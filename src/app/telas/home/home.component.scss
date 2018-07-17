@@ -4,6 +4,11 @@
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+@media only screen and (max-width: 610px) {
+    .texto{
+        top: 33% !important;
+    }
+}
 .col-sm-12{
     padding-right: 0px; 
     padding-left: 0px;
@@ -45,4 +50,12 @@
 }
 #botao:hover{
     background: #080d0e;
+}
+.row{
+    margin-right: 0px;
+     margin-left: 0px;
+}
+.conteudos{
+ padding-top:30px;
+ padding-bottom: 40px;
 }
