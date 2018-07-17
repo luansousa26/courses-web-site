@@ -15,7 +15,8 @@ export class HomeComponent implements OnInit {
     this.imagensDisponiveis = [
       'assets/background/imagem1.jpg',
       'assets/background/imagem2.jpg',
-      'assets/background/imagem3.jpg'
+      'assets/background/imagem3.jpg',
+      'assets/background/imagem5.jpg'
     ];
     this.startTimer();
   }
