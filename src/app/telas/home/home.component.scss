@@ -15,7 +15,7 @@
 }
 .texto{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     padding:20px;
     transform: translate(-50%, -50%);
@@ -93,4 +93,38 @@
 .botao-conteudo:hover{
     background: #080d0e;
     color:white !important;
+}
+.cursos{
+    background: #eeeeee;
+    height: 200px;
+}
+.cursos-content{
+    padding-top:30px;
+}
+.cursos-texto{
+    background: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 10px 30px 14px;
+    height: 300px;
+}
+#informatica{
+    background-image: url('../../../assets/informatica.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+#ingles{
+    background-image: url('../../../assets/ingles.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+#musica{
+    background-image: url('../../../assets/musica.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+.text-content{
+    color: white;
+    margin-top: 25%;
+    font-weight: bold;
+ 
 }
