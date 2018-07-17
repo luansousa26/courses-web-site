@@ -70,3 +70,27 @@
 .mat-icon{
     width: auto !important; 
 }
+.texto-conteudos{
+    color: #ffffff;
+    margin-top: 20px;
+}
+.botao-conteudos{
+    margin-top: 30px;
+}
+.botao-conteudo{
+    background:white;
+    color:#47d3a0 !important;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    padding: 19px 44px 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: solid 1px transparent;
+    text-shadow: 0px 0px !important;
+}
+.botao-conteudo:hover{
+    background: #080d0e;
+    color:white !important;
+}
