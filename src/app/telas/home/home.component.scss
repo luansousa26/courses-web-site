@@ -9,13 +9,20 @@
         top: 12% !important;
     }
 }
+@media only screen and (max-width: 779px) {
+    .content{
+        margin-top: 40px;
+    }
+}
+
+
 .col-sm-12{
     padding-right: 0px; 
     padding-left: 0px;
 }
 .texto{
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 50%;
     padding:20px;
     transform: translate(-50%, -50%);
