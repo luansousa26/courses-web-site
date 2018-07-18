@@ -9,6 +9,8 @@ export class HomeComponent implements OnInit {
 
   imagensDisponiveis: any[] = [];
   controlador = -1;
+  lat = -23.2828262;
+  lng = -46.7455076;
   constructor() { }
 
   ngOnInit() {

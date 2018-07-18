@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { HomeComponent } from './telas/home/home.component';
-
+import { AgmCoreModule } from '@agm/core';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +15,10 @@ import { HomeComponent } from './telas/home/home.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDamuwvDFPTTlR9Cv1RUAQxR-z3dntAeu8'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

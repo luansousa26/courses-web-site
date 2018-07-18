@@ -103,7 +103,7 @@
 }
 .cursos{
     background: #eeeeee;
-    height: 200px;
+    height: auto;
 }
 .cursos-content{
     padding-top:30px;
@@ -147,3 +147,11 @@
     font-weight: bold;
  
 }
+agm-map {
+    height: 300px;
+  }
+  .texto-contato{
+    font-size: 23px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
