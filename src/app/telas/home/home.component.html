@@ -84,13 +84,15 @@
   <div class="corPadrao-back">
     <div class="texto-contato row">
       <div class="espaco-contato col-md-6 col-sm-12">
-        Endereço
+          <mat-icon class="icon">location_on</mat-icon><br/>
+          Localização
         <agm-map [latitude]="lat" [longitude]="lng" [zoom]="19">
           <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
         </agm-map>
       </div>
       <div class="espaco-contato col-md-6 col-sm-12">
-        EMAIL
+          <mat-icon class="icon">phone</mat-icon><br/>
+        Contatos
       </div>
     </div>
   </div>
