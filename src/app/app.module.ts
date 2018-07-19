@@ -8,12 +8,14 @@ import { HomeComponent } from './telas/home/home.component';
 import { AgmCoreModule } from '@agm/core';
 import { AppRoutingModule } from './rotas/app-routing.module';
 import { CursosComponent } from './telas/cursos/cursos.component';
+import { SobreComponent } from './telas/sobre/sobre.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    CursosComponent
+    CursosComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
