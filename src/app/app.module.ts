@@ -6,6 +6,7 @@ import { MaterialModule } from './material/material.module';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { HomeComponent } from './telas/home/home.component';
 import { AgmCoreModule } from '@agm/core';
+import { AppRoutingModule } from './rotas/app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +17,7 @@ import { AgmCoreModule } from '@agm/core';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
+    AppRoutingModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDamuwvDFPTTlR9Cv1RUAQxR-z3dntAeu8'
     })
