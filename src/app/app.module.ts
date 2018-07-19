@@ -7,11 +7,13 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 import { HomeComponent } from './telas/home/home.component';
 import { AgmCoreModule } from '@agm/core';
 import { AppRoutingModule } from './rotas/app-routing.module';
+import { CursosComponent } from './telas/cursos/cursos.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    CursosComponent
   ],
   imports: [
     BrowserModule,
