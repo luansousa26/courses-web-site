@@ -46,3 +46,7 @@ li{
     font-family: Marker Felt, fantasy;
     text-shadow:0 0 2px #ffffff;
 }
+.fixed{
+    position: fixed;
+    z-index: 10000;
+}
