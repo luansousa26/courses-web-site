@@ -9,13 +9,15 @@ import { AgmCoreModule } from '@agm/core';
 import { AppRoutingModule } from './rotas/app-routing.module';
 import { CursosComponent } from './telas/cursos/cursos.component';
 import { SobreComponent } from './telas/sobre/sobre.component';
+import { FooterComponent } from './layout/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
     CursosComponent,
-    SobreComponent
+    SobreComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
