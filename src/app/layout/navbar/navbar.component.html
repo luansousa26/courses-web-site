@@ -3,9 +3,9 @@
     <span id="logo" class="corPadrao-font">School Logo</span>
     <div class="espaco">
       <ul>
-        <li><span class="itens-navbar">HOME</span></li>
-        <li><span class="itens-navbar">CURSOS</span></li>
-        <li><span class="itens-navbar">Sobre</span></li>
+        <li (click)="router.navigate([''])"><span class="itens-navbar">HOME</span></li>
+        <li (click)="router.navigate(['cursos'])"><span class="itens-navbar">CURSOS</span></li>
+        <li (click)="router.navigate(['sobre'])"><span class="itens-navbar">Sobre</span></li>
         <li><span class="itens-navbar">Contato</span></li>
       </ul>
     </div>
