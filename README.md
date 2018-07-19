@@ -1,6 +1,6 @@
 # CoursesWebSite
 project url: https://luansousa26.github.io/courses-web-site/
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.url
+
 ![image](https://user-images.githubusercontent.com/33549496/42791581-b6bd91a8-8947-11e8-836e-61b4ec006706.png)
 ![image](https://user-images.githubusercontent.com/33549496/42791613-de5920ce-8947-11e8-8778-93ce9caa7734.png)
 ![image](https://user-images.githubusercontent.com/33549496/42838927-780a7818-89d8-11e8-9fdc-bff66989c253.png)
