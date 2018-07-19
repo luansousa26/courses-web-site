@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener, Inject } from '@angular/core';
-import { DOCUMENT } from "@angular/platform-browser";
+import { DOCUMENT } from '@angular/platform-browser';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -23,12 +23,12 @@ export class HomeComponent implements OnInit {
     ];
     this.startTimer();
   }
-  @HostListener('window:scroll',[])
+  @HostListener('window:scroll', [])
   onWindowScroll() {
     if (document.documentElement.scrollTop > 200 || document.body.scrollTop > 200) {
-      document.getElementById("myBtn").style.display = "block";
+      document.getElementById('myBtn').style.display = 'block';
     } else {
-      document.getElementById("myBtn").style.display = "none";
+      document.getElementById('myBtn').style.display = 'none';
 
         }
 }
