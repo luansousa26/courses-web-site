@@ -1,17 +1,19 @@
 import { Component, OnInit, HostListener, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
+import { OnDestroy } from '@angular/core';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy {
 
   imagensDisponiveis: any[] = [];
   controlador = -1;
   lat = -23.2828262;
   lng = -46.7455076;
   navIsFixed: boolean;
+  controle: any;
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
@@ -21,7 +23,10 @@ export class HomeComponent implements OnInit {
       'assets/background/imagem3.jpg',
       'assets/background/imagem5.jpg'
     ];
-    this.startTimer();
+    this.controle = setInterval(() => {this.startTimer(); }, 7000);
+  }
+  ngOnDestroy() {
+  clearInterval(this.controle);
   }
   @HostListener('window:scroll', [])
   onWindowScroll() {
@@ -53,9 +58,7 @@ export class HomeComponent implements OnInit {
   }
 
   startTimer() {
-    setInterval(() => {
       this.displayNextImage();
-    }, 7000);
   }
 
 }
