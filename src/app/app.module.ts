@@ -10,6 +10,7 @@ import { AppRoutingModule } from './rotas/app-routing.module';
 import { CursosComponent } from './telas/cursos/cursos.component';
 import { SobreComponent } from './telas/sobre/sobre.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { CursoDialogComponent } from './telas/curso-dialog/curso-dialog.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { FooterComponent } from './layout/footer/footer.component';
     HomeComponent,
     CursosComponent,
     SobreComponent,
-    FooterComponent
+    FooterComponent,
+    CursoDialogComponent
   ],
   imports: [
     BrowserModule,
