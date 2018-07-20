@@ -1,3 +1,7 @@
-<p>
-  curso-dialog works!
-</p>
+<mat-dialog-content>
+  {{curso.curso}} 
+  {{curso.informacoes}}
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button class="mat-raised-button" (click)="fechar()">Fechar</button>
+</mat-dialog-actions>
