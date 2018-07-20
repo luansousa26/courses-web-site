@@ -1,11 +1,22 @@
-<mat-dialog-content>
-  <div>
-    <span id="titulo">{{curso.curso}}</span>
-  </div>
-  <div id="detalhes">
-    <span>{{curso.informacoes}}</span>
-  </div>
-</mat-dialog-content>
-<mat-dialog-actions>
-  <button class="mat-raised-button" (click)="fechar()">Fechar</button>
-</mat-dialog-actions>
+import { Component, OnInit, Inject } from '@angular/core';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+
+@Component({
+  selector: 'app-curso-dialog',
+  templateUrl: './curso-dialog.component.html',
+  styleUrls: ['./curso-dialog.component.scss']
+})
+export class CursoDialogComponent implements OnInit {
+
+  curso: any;
+  constructor(private dialogRef: MatDialogRef<CursoDialogComponent>,
+              @Inject(MAT_DIALOG_DATA) data) {
+                this.curso = data.curso;
+              }
+
+  ngOnInit() {
+  }
+  fechar() {
+    this.dialogRef.close();
+}
+}
