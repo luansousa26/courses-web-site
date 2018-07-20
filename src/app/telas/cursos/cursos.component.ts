@@ -15,16 +15,19 @@ export class CursosComponent implements OnInit {
 
   ngOnInit() {
     this.arrayLinhaUm = [
-      {imagem: 'assets/menu.png', curso: 'Informática', informacoes: 'teste', linha: 1},
-      {imagem: 'assets/dados.png', curso: 'História', informacoes: 'teste', linha: 1},
-      {imagem: 'assets/mente-coracao.png', curso: 'Inglês', informacoes: 'teste', linha: 1},
-      {imagem: 'assets/nucleo.png', curso: 'Frânces', informacoes: 'teste', linha: 1}
+      {imagem: 'assets/menu.png', curso: 'Informática',
+       informacoes: 'O aluno(a) estará apto a operar computadores como seus programas e recursos.', linha: 1},
+      {imagem: 'assets/dados.png', curso: 'História', informacoes: 'O aluno(a) aprenderá sobre história geral.', linha: 1},
+      {imagem: 'assets/mente-coracao.png', curso: 'Inglês', informacoes: 'O aluno(a) aprenderá a dominar o inglês.', linha: 1},
+      {imagem: 'assets/nucleo.png', curso: 'Frânces',
+       informacoes: 'O aluno(a) estará apto(a) a conversar em frânces fluentemente.', linha: 1}
   ];
     this.arrayLinhaDois = [
-      {imagem: 'assets/nucleo.png', curso: 'Russo', informacoes: 'teste', linha: 2},
-      {imagem: 'assets/mente-coracao.png', curso: 'Enfermagem', informacoes: 'teste', linha: 2},
-      {imagem: 'assets/dados.png', curso: 'Pintura', informacoes: 'teste', linha: 2},
-      {imagem: 'assets/menu.png', curso: 'Bordado', informacoes: 'teste', linha: 2}
+      {imagem: 'assets/nucleo.png', curso: 'Russo', informacoes: 'O aluno(a) aprenderá a dominar o Russo.', linha: 2},
+      {imagem: 'assets/mente-coracao.png', curso: 'Enfermagem',
+      informacoes: 'O aluno(a) será treinado para poder atuar em um hospital.', linha: 2},
+      {imagem: 'assets/dados.png', curso: 'Pintura', informacoes: 'O aluno(a) aprenderá pintura.', linha: 2},
+      {imagem: 'assets/menu.png', curso: 'Bordado', informacoes: 'O aluno(a) aprenderá bordado.', linha: 2}
     ];
   }
 
