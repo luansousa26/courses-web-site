@@ -31,6 +31,7 @@ import { CursoDialogComponent } from './telas/curso-dialog/curso-dialog.componen
     })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [CursoDialogComponent]
 })
 export class AppModule { }
