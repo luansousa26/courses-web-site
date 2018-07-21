@@ -11,7 +11,7 @@ export class CursoDialogComponent implements OnInit {
   curso: any;
   constructor(private dialogRef: MatDialogRef<CursoDialogComponent>,
               @Inject(MAT_DIALOG_DATA) data) {
-                this.curso = data.curso;
+                this.curso = data.dados;
               }
 
   ngOnInit() {

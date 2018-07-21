@@ -2,19 +2,19 @@
   <mat-card id="cor">
     <div class="col-md-12 col-sm-12">
       <div class="row">
-        <div *ngFor="let cursos of arrayLinhaUm" (click)="abrirDialog(cursos)" align="center" class="quadros col-md-3 col-sm-12">
+        <div [@container]="currentState" *ngFor="let cursos of arrayLinhaUm" (click)="abrirDialog(cursos)" align="center" class="quadros col-md-3 col-sm-12">
           <mat-card class="cursos">
             <img src="{{cursos.imagem}}">
-            <p>{{cursos.curso}}</p>
+            <p>{{cursos.titulo}}</p>
           </mat-card>
         </div>
       </div>  
       <br/>
       <div align="center" class="quadros row">
-        <div *ngFor="let cursosDois of arrayLinhaDois" (click)="abrirDialog(cursosDois)" class="quadros col-md-3 col-sm-12">
+        <div [@container]="currentState" *ngFor="let cursosDois of arrayLinhaDois" (click)="abrirDialog(cursosDois)" class="quadros col-md-3 col-sm-12">
           <mat-card class="cursos">
             <img src="{{cursosDois.imagem}}">
-            <p>{{cursosDois.curso}}</p>
+            <p>{{cursosDois.titulo}}</p>
           </mat-card>
         </div>
       </div>
