@@ -15,19 +15,15 @@
   </mat-toolbar-row>
   </mat-toolbar>
   <div id="mySidenav" class="sidenav">
-      <div>
+      <div id="logoSidNav">
         <div (click)="router.navigate(['']);" align="center">
-          <span class="beautYouText">BEAUTY YOU</span>
-        </div>
-        <div align="center" class="beautYouSubText">
-          <span>HAIRY</span>
-        </div>
-    
+          <span class="textoLogo">SCHOLL</span>
+        </div>   
       </div>
-      <div class="espaco">
-        <a routerLink="home">HOME</a>
-        <a routerLink="cursos">Cursos Oferecidos</a>
-        <a routerLink="eventos">Eventos</a>
-        <a routerLink="sobre">Sobre</a>
+      <div id="itens-clicaveis">
+        <a  (click)="openNav()" routerLink="">HOME</a>
+        <a  (click)="openNav()" routerLink="cursos">Cursos Oferecidos</a>
+        <a  (click)="openNav()" routerLink="eventos">Eventos</a>
+        <a  (click)="openNav()" routerLink="sobre">Sobre</a>
       </div>
     </div>

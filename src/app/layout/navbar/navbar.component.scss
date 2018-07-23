@@ -88,7 +88,7 @@ li{
 .sidenav a:hover {
     color: #f1f1f1;
     font-weight: bold;
-    background:#D1AB7F;
+    background:#47d3a0;
 }
 
 .sidenav .closebtn {
@@ -103,4 +103,22 @@ li{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+.textoLogo{
+    color: #47d3a0;
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+    font-family: Marker Felt, fantasy;
+    font-size: 20px;
+}
+.textoLogo:hover{
+    border-color: #47d3a0;
+    font-weight: bold;
+}
+#logoSidNav{
+    padding-top: 50px;
+}
+#itens-clicaveis{
+    padding-top:10px;
 }
