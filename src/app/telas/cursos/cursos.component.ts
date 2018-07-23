@@ -44,11 +44,11 @@ export class CursosComponent implements OnInit {
        informacoes: 'O aluno(a) estará apto(a) a conversar em frânces fluentemente.', linha: 1}
   ];
     this.arrayLinhaDois = [
-      {imagem: 'assets/nucleo.png', titulo: 'Russo', informacoes: 'O aluno(a) aprenderá a dominar o Russo.', linha: 2},
-      {imagem: 'assets/mente-coracao.png', titulo: 'Enfermagem',
+      {imagem: 'assets/cursos/russo.jpg', titulo: 'Russo', informacoes: 'O aluno(a) aprenderá a dominar o Russo.', linha: 2},
+      {imagem: 'assets/cursos/enfermagem.jpg', titulo: 'Enfermagem',
       informacoes: 'O aluno(a) será treinado para poder atuar em um hospital.', linha: 2},
-      {imagem: 'assets/dados.png', titulo: 'Pintura', informacoes: 'O aluno(a) aprenderá pintura.', linha: 2},
-      {imagem: 'assets/menu.png', titulo: 'Bordado', informacoes: 'O aluno(a) aprenderá bordado.', linha: 2}
+      {imagem: 'assets/cursos/pintura.jpg', titulo: 'Pintura', informacoes: 'O aluno(a) aprenderá pintura.', linha: 2},
+      {imagem: 'assets/cursos/bordado.jpg', titulo: 'Bordado', informacoes: 'O aluno(a) aprenderá bordado.', linha: 2}
     ];
   }
 

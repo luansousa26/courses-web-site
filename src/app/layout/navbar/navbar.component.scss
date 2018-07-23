@@ -36,6 +36,9 @@ li{
     ul{
         display: none;
     }
+    .toogle{
+        display: block !important;
+    }
 }
 .mat-toolbar-row{
     height: 80px;
@@ -54,4 +57,9 @@ li{
 #logo:hover{
     cursor: pointer;
     color: #999999;
+}
+.toogle{
+    display: none;
+    padding-right: 10px;
+    color:#47d3a0;
 }

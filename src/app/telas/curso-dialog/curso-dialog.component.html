@@ -1,14 +1,17 @@
-<mat-dialog-content>
-  <div align="center">
-    <img src="{{dado.imagem}}">
-  </div>
-  <div>
-    <span id="titulo">{{dado.titulo}}</span>
-  </div>
-  <div id="detalhes">
-    <span>{{dado.informacoes}}</span>
-  </div>
-</mat-dialog-content>
-<mat-dialog-actions id="btn">
-  <button  mat-raised-button color="primary" (click)="fechar()">Fechar</button>
-</mat-dialog-actions>
+<div>
+  <mat-dialog-content>
+    <div align="center">
+      <img src="{{dado.imagem}}">
+    </div>
+    <div>
+      <span id="titulo">{{dado.titulo}}</span>
+    </div>
+    <div id="detalhes">
+      <span>{{dado.informacoes}}</span>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions id="btn">
+    <button  mat-raised-button color="primary" (click)="fechar()">Fechar</button>
+  </mat-dialog-actions>
+  
+</div>
