@@ -39,21 +39,23 @@ export class EventosComponent implements OnInit {
         imagem: 'assets/eventos/formatura.jpg', titulo: 'Encontro dos Formandos',
         informacoes: 'O aluno(a) estará apto a operar computadores como seus programas e reeventos.', linha: 1
       },
-      { imagem: 'assets/eventos/formatura.jpg', titulo: 'test', informacoes: 'O aluno(a) aprenderá sobre história geral.', linha: 1 },
-      { imagem: 'assets/eventos/formatura.jpg', titulo: 'teste', informacoes: 'O aluno(a) aprenderá a dominar o inglês.', linha: 1 },
+      { imagem: 'assets/eventos/ballet.jpg', titulo: 'Baile dos Cisnes',
+       informacoes: 'O aluno(a) aprenderá sobre história geral.', linha: 1 },
+      { imagem: 'assets/eventos/criancas.jpg', titulo: 'Dias das Crianças',
+       informacoes: 'O aluno(a) aprenderá a dominar o inglês.', linha: 1 },
       {
-        imagem: 'assets/eventos/formatura.jpg', titulo: 'teste',
+        imagem: 'assets/eventos/idosos.jpg', titulo: 'Festa dos Idosos',
         informacoes: 'O aluno(a) estará apto(a) a conversar em frânces fluentemente.', linha: 1
       }
     ];
     this.arrayLinhaDois = [
-      { imagem: 'assets/eventos/formatura.jpg', titulo: 'teste2', informacoes: 'O aluno(a) aprenderá a dominar o Russo.', linha: 2 },
+      { imagem: 'assets/eventos/hiphop.jpg', titulo: 'Show de HipHop', informacoes: 'O aluno(a) aprenderá a dominar o Russo.', linha: 2 },
       {
-        imagem: 'assets/eventos/formatura.jpg', titulo: 'teste2',
+        imagem: 'assets/eventos/palestra.jpg', titulo: 'Palestra',
         informacoes: 'O aluno(a) será treinado para poder atuar em um hospital.', linha: 2
       },
-      { imagem: 'assets/eventos/formatura.jpg', titulo: 'teste55', informacoes: 'O aluno(a) aprenderá pintura.', linha: 2 },
-      { imagem: 'assets/eventos/formatura.jpg', titulo: 'teste33', informacoes: 'O aluno(a) aprenderá bordado.', linha: 2 }
+      { imagem: 'assets/eventos/pinturas.jpg', titulo: 'Pinturas', informacoes: 'O aluno(a) aprenderá pintura.', linha: 2 },
+      { imagem: 'assets/eventos/sangue.jpg', titulo: 'Doação de sangue', informacoes: 'O aluno(a) aprenderá bordado.', linha: 2 }
     ];
   }
 
