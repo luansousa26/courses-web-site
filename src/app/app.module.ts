@@ -12,6 +12,7 @@ import { SobreComponent } from './telas/sobre/sobre.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { CursoDialogComponent } from './telas/curso-dialog/curso-dialog.component';
 import { EventosComponent } from './telas/eventos/eventos.component';
+import { BackTopComponent } from './layout/back-top/back-top.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { EventosComponent } from './telas/eventos/eventos.component';
     SobreComponent,
     FooterComponent,
     CursoDialogComponent,
-    EventosComponent
+    EventosComponent,
+    BackTopComponent
   ],
   imports: [
     BrowserModule,
