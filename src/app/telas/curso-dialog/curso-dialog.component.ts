@@ -8,10 +8,10 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 })
 export class CursoDialogComponent implements OnInit {
 
-  curso: any;
+  dado: any;
   constructor(private dialogRef: MatDialogRef<CursoDialogComponent>,
               @Inject(MAT_DIALOG_DATA) data) {
-                this.curso = data.dados;
+                this.dado = data.dados;
               }
 
   ngOnInit() {

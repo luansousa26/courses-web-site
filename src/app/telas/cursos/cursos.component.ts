@@ -36,11 +36,11 @@ export class CursosComponent implements OnInit {
       this.currentState = 'active';
     }, 500);
     this.arrayLinhaUm = [
-      {imagem: 'assets/menu.png', titulo: 'Informática',
+      {imagem: 'assets/cursos/informatica.jpg', titulo: 'Informática',
        informacoes: 'O aluno(a) estará apto a operar computadores como seus programas e recursos.', linha: 1},
-      {imagem: 'assets/dados.png', titulo: 'História', informacoes: 'O aluno(a) aprenderá sobre história geral.', linha: 1},
-      {imagem: 'assets/mente-coracao.png', titulo: 'Inglês', informacoes: 'O aluno(a) aprenderá a dominar o inglês.', linha: 1},
-      {imagem: 'assets/nucleo.png', titulo: 'Frânces',
+      {imagem: 'assets/cursos/historia.jpg', titulo: 'História', informacoes: 'O aluno(a) aprenderá sobre história geral.', linha: 1},
+      {imagem: 'assets/cursos/ingles.jpg', titulo: 'Inglês', informacoes: 'O aluno(a) aprenderá a dominar o inglês.', linha: 1},
+      {imagem: 'assets/cursos/frances.jpg', titulo: 'Frânces',
        informacoes: 'O aluno(a) estará apto(a) a conversar em frânces fluentemente.', linha: 1}
   ];
     this.arrayLinhaDois = [
