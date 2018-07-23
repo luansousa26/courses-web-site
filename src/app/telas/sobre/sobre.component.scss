@@ -1,7 +1,26 @@
 .color-sobre{
-    background: rgb(58, 53, 53);
+    background: #13272E;
     color: white;
+    height: 50%;
+    height: 300px;
 }
 .espacamento{
     padding-top: 82px;
+}
+.sobre1{
+    background-image: url('../../../assets/informatica.jpg');
+    background-size: cover;
+}
+.sobre2{
+    background-image: url('../../../assets/musica.jpg');
+    background-size: cover;
+}
+.texto{
+    margin-top: 20%;
+}
+.color-sobre2{
+    background:#FCDCA3;
+    color: white;
+    height: 50%;
+    height: 300px;
 }
