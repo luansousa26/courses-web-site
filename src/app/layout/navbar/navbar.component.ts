@@ -8,9 +8,19 @@ import { Router } from '../../../../node_modules/@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
+  controla: boolean;
   constructor(public router: Router) { }
 
   ngOnInit() {
+  }
+  openNav() {
+    if (this.controla === true) {
+      document.getElementById('mySidenav').style.width = '0';
+      this.controla = false;
+    } else {
+      document.getElementById('mySidenav').style.width = '250px';
+      this.controla = true;
+    }
   }
 
 }
