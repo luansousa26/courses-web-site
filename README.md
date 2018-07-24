@@ -1,5 +1,6 @@
 # CoursesWebSite https://luansousa26.github.io/courses-web-site/
 
+## Telas:
 ![image](https://user-images.githubusercontent.com/33549496/42791581-b6bd91a8-8947-11e8-836e-61b4ec006706.png)
 ![image](https://user-images.githubusercontent.com/33549496/42791613-de5920ce-8947-11e8-8778-93ce9caa7734.png)
 ![image](https://user-images.githubusercontent.com/33549496/42946738-0f7b5702-8b42-11e8-9800-8f495e67cd73.png)
@@ -8,8 +9,10 @@
 ![image](https://user-images.githubusercontent.com/33549496/43093899-d108bde0-8e87-11e8-8b5f-365d7fdfb798.png)
 ![image](https://user-images.githubusercontent.com/33549496/43093857-ae28957a-8e87-11e8-8137-2d20e022546d.png)
 
-Responsivo:
+## Responsivo:
 ![image](https://user-images.githubusercontent.com/33549496/43109284-66696a4a-8ebc-11e8-99f9-8c2a63e1b0be.png)
+![image](https://user-images.githubusercontent.com/33549496/43109332-ac63e8b8-8ebc-11e8-82f1-1ad482e66bdf.png)
+
 
 
 
