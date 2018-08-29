@@ -1,10 +1,28 @@
-import { Component, OnInit, HostListener, Inject } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 import { OnDestroy } from '@angular/core';
+import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  animations: [
+    trigger('conteudos', [
+      state('active', style({})),
+      transition('inactive => active', [
+        animate(4000, keyframes([
+          style({
+            marginTop: '-4%'
+          }),
+        ])),
+        animate(5000, keyframes([
+          style({
+            marginTop: '0px'
+          }),
+        ]))
+      ]),
+    ]),
+  ]
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
@@ -14,9 +32,14 @@ export class HomeComponent implements OnInit, OnDestroy {
   lng = -46.7455076;
   navIsFixed: boolean;
   controle: any;
+  currentState: any;
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
+    this.currentState = 'inactive';
+    setTimeout(() => {
+      this.currentState = 'active';
+    }, 500);
     this.imagensDisponiveis = [
       'assets/background/imagem1.jpg',
       'assets/background/imagem2.jpg',
