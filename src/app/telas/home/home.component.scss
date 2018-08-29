@@ -123,7 +123,8 @@
 #informatica{
     background-image: url('../../../assets/informatica.jpg');
     background-size: cover;
-    border-radius: 50%;
+    transition: background-image 2s;
+
 }
 #informatica:hover{
     background-image: url('../../../assets/informatica2.jpg');
@@ -131,7 +132,6 @@
 #ingles{
     background-image: url('../../../assets/ingles.jpg');
     background-size: cover;
-    border-radius: 50%;
 }
 #ingles:hover{
     background-image: url('../../../assets/ingles2.jpg');
@@ -139,7 +139,6 @@
 #musica{
     background-image: url('../../../assets/musica.jpg');
     background-size: cover;
-    border-radius: 50%;
 }
 #musica:hover{
     background-image: url('../../../assets/musica2.jpg');
