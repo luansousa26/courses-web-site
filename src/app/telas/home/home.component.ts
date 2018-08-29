@@ -8,8 +8,8 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
   styleUrls: ['./home.component.scss'],
   animations: [
     trigger('conteudos', [
-      state('active', style({})),
-      transition('inactive => active', [
+      state('ativo', style({})),
+      transition('inativo => ativo', [
         animate(4000, keyframes([
           style({
             marginTop: '-4%'
@@ -32,13 +32,13 @@ export class HomeComponent implements OnInit, OnDestroy {
   lng = -46.7455076;
   navIsFixed: boolean;
   controle: any;
-  currentState: any;
+  estadoAnimacao: any;
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
-    this.currentState = 'inactive';
+    this.estadoAnimacao = 'inativo';
     setTimeout(() => {
-      this.currentState = 'active';
+      this.estadoAnimacao = 'ativo';
     }, 500);
     this.imagensDisponiveis = [
       'assets/background/imagem1.jpg',
