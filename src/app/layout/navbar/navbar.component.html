@@ -1,29 +1,37 @@
 <mat-toolbar class="fixed" color="primary">
   <mat-toolbar-row>
     <div>
-        <span class="toogle" style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
+      <span class="toogle" style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
     </div>
     <span id="logo" (click)="router.navigate([''])" class="corPadrao-font">School Logo</span>
     <div class="espaco">
       <ul>
-        <li (click)="router.navigate([''])"><span class="itens-navbar">HOME</span></li>
-        <li (click)="router.navigate(['cursos'])"><span class="itens-navbar">CURSOS</span></li>
-        <li (click)="router.navigate(['eventos'])"><span class="itens-navbar" >Eventos</span></li>
-        <li (click)="router.navigate(['sobre'])"><span class="itens-navbar">Sobre</span></li>
+        <li (click)="router.navigate([''])">
+          <div class="itens-navbar"><span>HOME</span></div>
+        </li>
+        <li (click)="router.navigate(['cursos'])">
+          <div class="itens-navbar"><span>CURSOS</span></div>
+        </li>
+        <li (click)="router.navigate(['eventos'])">
+          <div class="itens-navbar"><span>Eventos</span></div>
+        </li>
+        <li (click)="router.navigate(['sobre'])">
+          <div class="itens-navbar"><span>Sobre</span></div>
+        </li>
       </ul>
     </div>
   </mat-toolbar-row>
-  </mat-toolbar>
-  <div id="mySidenav" class="sidenav">
-      <div id="logoSidNav">
-        <div (click)="router.navigate(['']);" align="center">
-          <span class="textoLogo">SCHOLL</span>
-        </div>   
-      </div>
-      <div id="itens-clicaveis">
-        <a  (click)="openNav()" routerLink="">HOME</a>
-        <a  (click)="openNav()" routerLink="cursos">Cursos Oferecidos</a>
-        <a  (click)="openNav()" routerLink="eventos">Eventos</a>
-        <a  (click)="openNav()" routerLink="sobre">Sobre</a>
-      </div>
+</mat-toolbar>
+<div id="mySidenav" class="sidenav">
+  <div id="logoSidNav">
+    <div (click)="router.navigate(['']);" align="center">
+      <span class="textoLogo">SCHOLL</span>
     </div>
+  </div>
+  <div id="itens-clicaveis">
+    <a (click)="openNav()" routerLink="">HOME</a>
+    <a (click)="openNav()" routerLink="cursos">Cursos Oferecidos</a>
+    <a (click)="openNav()" routerLink="eventos">Eventos</a>
+    <a (click)="openNav()" routerLink="sobre">Sobre</a>
+  </div>
+</div>

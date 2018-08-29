@@ -1,3 +1,4 @@
+$cor-menu-animacao: #47d3a0;
 .mat-toolbar {
     color: #999999;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -10,16 +11,6 @@ ul{
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 22px;
-}
-.itens-navbar:hover{
- font-size: 18px;
- color: #47d3a0;;
- background: transparent;
- border: solid 2px;
- border-color: #47d3a0;
- padding:10px;
- cursor: pointer;
-
 }
 .espaco{
        margin-left: 350px;
@@ -121,4 +112,95 @@ li{
 }
 #itens-clicaveis{
     padding-top:10px;
+}
+
+
+.itens-navbar{
+    position: relative;
+    padding: 7px;
+    display: inline-block;
+    cursor: pointer;
+    transition: color 3s;
+}
+.itens-navbar:hover{
+    color: $cor-menu-animacao;
+}
+.itens-navbar:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.itens-navbar:hover:before{
+    animation: animate 1s linear forwards;
+}
+@keyframes animate {
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: $cor-menu-animacao;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    50%{
+        width: 100%;
+        height: 0;
+        border-top-color: $cor-menu-animacao;
+        border-right-color: $cor-menu-animacao;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: $cor-menu-animacao;
+        border-right-color: $cor-menu-animacao;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+}
+
+.itens-navbar:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.itens-navbar:hover:after{
+    animation: animate2 1s linear forwards;
+}
+@keyframes animate2 {
+    0%{
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: $cor-menu-animacao;
+    }
+    50%{
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: $cor-menu-animacao;
+        border-left-color: $cor-menu-animacao;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: $cor-menu-animacao;
+        border-left-color: $cor-menu-animacao;
+    }
 }
