@@ -9,7 +9,7 @@
   * SCSS.
   
 ## Telas:
-![image](https://user-images.githubusercontent.com/33549496/42791581-b6bd91a8-8947-11e8-836e-61b4ec006706.png)
+![image](https://user-images.githubusercontent.com/33549496/44822022-f06ba800-abce-11e8-8a7c-f66863cc7836.png)
 ![image](https://user-images.githubusercontent.com/33549496/42791613-de5920ce-8947-11e8-8778-93ce9caa7734.png)
 ![image](https://user-images.githubusercontent.com/33549496/42946738-0f7b5702-8b42-11e8-9800-8f495e67cd73.png)
 ![image](https://user-images.githubusercontent.com/33549496/43109227-16695d0c-8ebc-11e8-8d15-4dd6048211e6.png)
