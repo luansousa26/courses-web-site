@@ -43,14 +43,22 @@
 }
 .vermelho{
     background:#e74c3c;
+    border-bottom-color:#e74c3c !important;
 }
 .roxo{
         background: #9b59b6;
+        border-bottom-color:#9b59b6 !important;
 }
 .preto{
     background: #2f2f2f;
+    border-bottom-color:#2f2f2f !important;
 }
 .aling-quadrado{
     float: left;
     padding-left: 10px;
+}
+.borda-bottom{
+    border-bottom: solid;
+    margin-left: 3px;
+    margin-right: 320px;
 }
