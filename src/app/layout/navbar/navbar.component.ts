@@ -12,8 +12,8 @@
     controla: boolean;
     constructor(public router: Router,
                 public translate: TranslateService) {
-                  this.translate.addLangs(['pt-br', 'fr']);
-                  this.translate.setDefaultLang('pt-br');
+                  this.translate.addLangs(['pt-br', 'en']);
+                  this.translate.setDefaultLang('en');
                 }
 
     ngOnInit() {

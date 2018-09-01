@@ -1,0 +1,22 @@
+{
+    "home":{
+        "home":"home",
+        "cursos":"courses",
+        "eventos": "events",
+        "sobre":"about",
+        "bem-vindo":"welcome for school site",
+        "escola-aberta":"school opened 24 hours",
+        "cursos-profi": "Professional Courses",
+        "professores-capa":"Capacitated Teachers",
+        "horarios-flex":"Flexible Fchedule",
+        "localizacao":"Location",
+        "contatos":"Contacts",
+        "telefone":"Phone",
+        "frase-cursos":"We have courses focused on the current job market. We care about your future, come with us.",
+        "frase-professores":"Teachers active in the market and with good didactics. Bringing you the realization of the market.",
+        "frase-horarios":"We seek to adhere our schedule to your routine. We have an Online platform where we can teach you remotely."
+    },
+    "botoes": {
+        "leia-mais":"Read More"
+    }
+}
