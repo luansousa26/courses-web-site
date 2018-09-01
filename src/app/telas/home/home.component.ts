@@ -9,15 +9,17 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
   animations: [
     trigger('conteudos', [
       state('ativo', style({})),
+      state('inativo', style({
+          marginTop: '-30px',
+          opacity: '0',
+          background: '#818181'
+      })),
       transition('inativo => ativo', [
-        animate(4000, keyframes([
-          style({
-            marginTop: '-4%'
-          }),
-        ])),
         animate(5000, keyframes([
           style({
-            marginTop: '0px'
+            marginTop: '0px',
+            opacity: '1',
+            background: '#47d3a0'
           }),
         ]))
       ]),
