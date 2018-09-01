@@ -16,8 +16,13 @@ import { BackTopComponent } from './layout/back-top/back-top.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { isDevMode } from '@angular/core';
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  if (isDevMode()) {
+    return new TranslateHttpLoader(http);
+  }{
+    return new TranslateHttpLoader(http, './courses-web-site/assets/i18n/');
+  }
 }
 @NgModule({
   declarations: [
