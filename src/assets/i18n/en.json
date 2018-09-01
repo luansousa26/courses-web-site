@@ -23,7 +23,9 @@
         "aconselhamento": "Counseling",
         "acompanhamento-acad":"Academic Accompaniment",
         "imagens":"Images",
-        "professores":"Teachers"
+        "professores":"Teachers",
+        "portugues":"Portuguese",
+        "ingles":"English"
     },
     "sobre":{
         "venha-estudar":"Come study with us and learn the best in technology.",

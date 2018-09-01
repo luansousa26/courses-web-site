@@ -43,5 +43,17 @@
     <a (click)="openNav()" routerLink="cursos">{{'home.cursos' | translate}}</a>
     <a (click)="openNav()" routerLink="eventos">{{'home.eventos' | translate}}</a>
     <a (click)="openNav()" routerLink="sobre">{{'home.sobre' | translate}}</a>
+    <a>
+      <div class="flags" (click)="alterarLinguagem('pt-br')">
+        <img src="assets/flags/brasil.png">
+        {{'home.portugues' | translate}}
+      </div>
+    </a>
+    <a>
+      <div class="flags" (click)="alterarLinguagem('en')">
+        <img  src="assets/flags/united-states.png">
+        {{'home.ingles' | translate}}
+      </div>
+    </a>
   </div>
 </div>

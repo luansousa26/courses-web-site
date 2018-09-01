@@ -23,7 +23,9 @@
         "aconselhamento": "Aconselhamento",
         "acompanhamento-acad":"Acompanhamento Acadêmico",
         "imagens":"Imagens",
-        "professores":"Professores"
+        "professores":"Professores",
+        "portugues":"Português",
+        "ingles":"Inglês"
     },
     "sobre":{
         "venha-estudar":"Venha estudar conosco e aprenda o que há de melhor na tecnologia",
