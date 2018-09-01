@@ -8,6 +8,10 @@
   * HTML5.
   * SCSS.
   
+  ## Traduções:
+   * PT-BR
+   * EN
+  
 ## Telas:
 ![image](https://user-images.githubusercontent.com/33549496/44945576-c7136d80-adc2-11e8-99bb-0fc42e7d68f5.png)
 ![image](https://user-images.githubusercontent.com/33549496/44945578-d09cd580-adc2-11e8-974a-f8ea7ef5361b.png)
