@@ -1,0 +1,38 @@
+{
+    "home":{
+        "logo":"SCHOOL LOGO",
+        "home":"home",
+        "cursos":"cursos",
+        "eventos": "eventos",
+        "sobre":"sobre",
+        "bem-vindo":"Seja bem vindo",
+        "escola-aberta":"Escola aberta 24 horas",
+        "cursos-profi": "Cursos Profissionalizantes",
+        "professores-capa":"Professores Capacitados",
+        "horarios-flex":"Horários Flexiveis",
+        "localizacao":"Localização",
+        "contatos":"Contatos",
+        "telefone":"Telefone",
+        "frase-cursos":"Temos cursos voltados para o mercado de trabalho atual. Nós nos preocupamos com o seu futuro, venha com a gente.",
+        "frase-professores":"Professores atuantes no mercado e com boa didática. Trazendo a você a realizade do mercado.",
+        "frase-horarios":"Buscamos aderir nosso horário a sua rotina. Temos uma plataforma Online onde podemos te ensinar remotamente.",
+        "razao-social":"ESCHOOL MORATENSE LUANSENSE",
+        "ideal":"Ajudando pessoas a conseguir empregos.",
+        "desenvolvido-por":"Desenvolvido por",
+        "equipe": "Equipe",
+        "aconselhamento": "Aconselhamento",
+        "acompanhamento-acad":"Acompanhamento Acadêmico",
+        "imagens":"Imagens",
+        "professores":"Professores",
+        "portugues":"Português",
+        "ingles":"Inglês"
+    },
+    "sobre":{
+        "venha-estudar":"Venha estudar conosco e aprenda o que há de melhor na tecnologia",
+        "aprenda":"Aprenda a ver o mundo de outra forma. Adquira novos horizontes e metas.",
+        "evolua":"Evolua mais e mais, sempre lembrando que o esforço é a chave."
+    },
+    "botoes": {
+        "leia-mais":"leia mais"
+    }
+}

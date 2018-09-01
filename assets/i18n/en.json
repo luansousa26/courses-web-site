@@ -1,0 +1,38 @@
+{
+    "home":{
+        "logo":"SCHOOL LOGO",
+        "home":"home",
+        "cursos":"courses",
+        "eventos": "events",
+        "sobre":"about",
+        "bem-vindo":"welcome for school site",
+        "escola-aberta":"school opened 24 hours",
+        "cursos-profi": "Professional Courses",
+        "professores-capa":"Capacitated Teachers",
+        "horarios-flex":"Flexible Fchedule",
+        "localizacao":"Location",
+        "contatos":"Contacts",
+        "telefone":"Phone",
+        "frase-cursos":"We have courses focused on the current job market. We care about your future, come with us.",
+        "frase-professores":"Teachers active in the market and with good didactics. Bringing you the realization of the market.",
+        "frase-horarios":"We seek to adhere our schedule to your routine. We have an Online platform where we can teach you remotely.",
+        "razao-social":"ESCHOOL LUANS SOUSA",
+        "ideal":"Helping people get jobs.",
+        "desenvolvido-por":"Developed by",
+        "equipe": "Team",
+        "aconselhamento": "Counseling",
+        "acompanhamento-acad":"Academic Accompaniment",
+        "imagens":"Images",
+        "professores":"Teachers",
+        "portugues":"Portuguese",
+        "ingles":"English"
+    },
+    "sobre":{
+        "venha-estudar":"Come study with us and learn the best in technology.",
+        "aprenda":"Learn to see the world in a different way. Acquire new horizons and goals.",
+        "evolua":"Evolve more and more, always remembering that effort is the key."
+    },
+    "botoes": {
+        "leia-mais":"Read More"
+    }
+}
