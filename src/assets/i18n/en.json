@@ -25,6 +25,11 @@
         "imagens":"Images",
         "professores":"Teachers"
     },
+    "sobre":{
+        "venha-estudar":"Come study with us and learn the best in technology.",
+        "aprenda":"Learn to see the world in a different way. Acquire new horizons and goals.",
+        "evolua":"Evolve more and more, always remembering that effort is the key."
+    },
     "botoes": {
         "leia-mais":"Read More"
     }

@@ -25,6 +25,11 @@
         "imagens":"Imagens",
         "professores":"Professores"
     },
+    "sobre":{
+        "venha-estudar":"Venha estudar conosco e aprenda o que há de melhor na tecnologia",
+        "aprenda":"Aprenda a ver o mundo de outra forma. Adquira novos horizontes e metas.",
+        "evolua":"Evolua mais e mais, sempre lembrando que o esforço é a chave."
+    },
     "botoes": {
         "leia-mais":"leia mais"
     }
