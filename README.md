@@ -1,18 +1,18 @@
 # CoursesWebSite https://luansousa26.github.io/courses-web-site/
 
-## Projeto Finalizado.
+## Projeto Finalizado / Finished Project.
 
-## Tecnologias utilizadas:
+## Tecnologias utilizadas / Used technologies:
   * Angular.
   * Angular Material.
   * HTML5.
   * SCSS.
   
-  ## Traduções:
+  ## Traduções / Translations:
    * PT-BR
    * EN
   
-## Telas:
+## Telas / Screens:
 ![image](https://user-images.githubusercontent.com/33549496/44945576-c7136d80-adc2-11e8-99bb-0fc42e7d68f5.png)
 ![image](https://user-images.githubusercontent.com/33549496/44945578-d09cd580-adc2-11e8-974a-f8ea7ef5361b.png)
 ![image](https://user-images.githubusercontent.com/33549496/44822022-f06ba800-abce-11e8-8a7c-f66863cc7836.png)
@@ -24,7 +24,7 @@
 ![image](https://user-images.githubusercontent.com/33549496/44823274-e5684600-abd5-11e8-9edf-31e3e96ba225.png)
 
 
-## Responsivo:
+## Responsivo / Responsive:
 ![image](https://user-images.githubusercontent.com/33549496/43109284-66696a4a-8ebc-11e8-99f9-8c2a63e1b0be.png)
 ![image](https://user-images.githubusercontent.com/33549496/43109332-ac63e8b8-8ebc-11e8-82f1-1ad482e66bdf.png)
 ![image](https://user-images.githubusercontent.com/33549496/43109374-e7a55272-8ebc-11e8-85ba-d95310185755.png)
