@@ -1,14 +1,14 @@
 <div class="container col-md-12 col-sm-12">
   <img id="img" src="assets/background/imagem4.jpg">
   <div class="texto">
-    <span id="tituloImagem">Seja Bem Vindo</span>
+    <span id="tituloImagem">{{'home.bem-vindo' | translate}}</span>
     <br/>
     <br/>
-    <span id="textoImagem">Escola aberta 24hrs</span>
+    <span id="textoImagem">{{'home.escola-aberta' | translate}}</span>
     <br/>
     <br/>
     <br/>
-    <a id="botao" routerLink="sobre">LEIA MAIS</a>
+    <a id="botao" routerLink="sobre">{{'botoes.leia-mais' | translate}}</a>
   </div>
   <div class="corPadrao-back">
     <div [@conteudos]="estadoAnimacao" class="conteudos row">
@@ -16,27 +16,27 @@
         <div class="content">
           <mat-icon class="icon">school</mat-icon>
           <div class="titulo">
-            <span>Cursos Profissionalizantes</span>
+            <span>{{'home.cursos-profi' | translate}}</span>
           </div>
           <div class="texto-conteudos">
-            Kenzen naru tamashii wa,kenzen naru seishin to, kenzen naru nikutai ni yadoru
+            {{'home.frase-cursos' | translate}}
           </div>
         </div>
         <div class="botao-conteudos">
-          <a routerLink="cursos" class="botao-conteudo">LEIA MAIS</a>
+          <a routerLink="cursos" class="botao-conteudo">{{'botoes.leia-mais' | translate}}</a>
         </div>
       </div>
       <div class="col-md-4 col-sm-12">
         <div class="content">
           <mat-icon class="icon">book</mat-icon>
           <div class="titulo">
-            <span>Professores Capacitados</span>
+            <span>{{'home.professores-capa' | translate}}</span>
           </div>
           <div class="texto-conteudos">
-            Kenzen naru tamashii wa,kenzen naru seishin to, kenzen naru nikutai ni yadoru
+            {{'home.frase-professores' | translate}}
           </div>
           <div class="botao-conteudos">
-            <a class="botao-conteudo" routerLink="sobre">LEIA MAIS</a>
+            <a class="botao-conteudo" routerLink="sobre">{{'botoes.leia-mais' | translate}}</a>
           </div>
         </div>
       </div>
@@ -44,13 +44,13 @@
         <div class="content">
           <mat-icon class="icon">transfer_within_a_station</mat-icon>
           <div class="titulo">
-            <span>Horários Flexiveis</span>
+            <span>{{'home.horarios-flex' | translate}}</span>
           </div>
           <div class="texto-conteudos">
-            Kenzen naru tamashii wa,kenzen naru seishin to, kenzen naru nikutai ni yadoru
+            {{'home.frase-horarios' | translate}}
           </div>
           <div class="botao-conteudos">
-            <a routerLink="sobre" class="botao-conteudo">LEIA MAIS</a>
+            <a routerLink="sobre" class="botao-conteudo">{{'botoes.leia-mais' | translate}}</a>
           </div>
         </div>
       </div>
@@ -80,18 +80,18 @@
     <div class="texto-contato row">
       <div class="espaco-contato col-md-6 col-sm-12">
           <mat-icon class="icon">location_on</mat-icon><br/>
-          Localização
+          {{'home.localizacao' | translate}}
         <agm-map [latitude]="lat" [longitude]="lng" [zoom]="19">
           <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
         </agm-map>
       </div>
       <div class="espaco-contato col-md-6 col-sm-12">
           <mat-icon class="icon">phone</mat-icon><br/>
-        Contatos
+          {{'home.contatos' | translate}}
         <div class="contatos-escritos">
          Email: luan26@uninove.edu.br<br>
-         Telefone: 4002-8922<br>
-
+         {{'home.telefone' | translate}} : 4002-8922<br>
+          Github: <a href="https://github.com/luansousa26">luansousa26</a>
         </div>
       </div>
     </div>
