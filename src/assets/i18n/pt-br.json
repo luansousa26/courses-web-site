@@ -1,5 +1,6 @@
 {
     "home":{
+        "logo":"SCHOOL LOGO",
         "home":"home",
         "cursos":"cursos",
         "eventos": "eventos",
@@ -14,7 +15,15 @@
         "telefone":"Telefone",
         "frase-cursos":"Temos cursos voltados para o mercado de trabalho atual. Nós nos preocupamos com o seu futuro, venha com a gente.",
         "frase-professores":"Professores atuantes no mercado e com boa didática. Trazendo a você a realizade do mercado.",
-        "frase-horarios":"Buscamos aderir nosso horário a sua rotina. Temos uma plataforma Online onde podemos te ensinar remotamente.  "
+        "frase-horarios":"Buscamos aderir nosso horário a sua rotina. Temos uma plataforma Online onde podemos te ensinar remotamente.",
+        "razao-social":"ESCHOOL MORATENSE LUANSENSE",
+        "ideal":"Ajudando pessoas a conseguir empregos.",
+        "desenvolvido-por":"Desenvolvido por",
+        "equipe": "Equipe",
+        "aconselhamento": "Aconselhamento",
+        "acompanhamento-acad":"Acompanhamento Acadêmico",
+        "imagens":"Imagens",
+        "professores":"Professores"
     },
     "botoes": {
         "leia-mais":"leia mais"

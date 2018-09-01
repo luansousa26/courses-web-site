@@ -1,5 +1,6 @@
 {
     "home":{
+        "logo":"SCHOOL LOGO",
         "home":"home",
         "cursos":"courses",
         "eventos": "events",
@@ -14,7 +15,15 @@
         "telefone":"Phone",
         "frase-cursos":"We have courses focused on the current job market. We care about your future, come with us.",
         "frase-professores":"Teachers active in the market and with good didactics. Bringing you the realization of the market.",
-        "frase-horarios":"We seek to adhere our schedule to your routine. We have an Online platform where we can teach you remotely."
+        "frase-horarios":"We seek to adhere our schedule to your routine. We have an Online platform where we can teach you remotely.",
+        "razao-social":"ESCHOOL LUANS SOUSA",
+        "ideal":"Helping people get jobs.",
+        "desenvolvido-por":"Developed by",
+        "equipe": "Team",
+        "aconselhamento": "Counseling",
+        "acompanhamento-acad":"Academic Accompaniment",
+        "imagens":"Images",
+        "professores":"Teachers"
     },
     "botoes": {
         "leia-mais":"Read More"
