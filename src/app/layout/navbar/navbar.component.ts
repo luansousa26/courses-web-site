@@ -27,5 +27,7 @@
         this.controla = true;
       }
     }
-
+    alterarLinguagem(linguagem: string) {
+      this.translate.use(linguagem);
+    }
   }

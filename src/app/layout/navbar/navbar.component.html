@@ -19,7 +19,14 @@
           <div class="itens-navbar"><span>{{'home.sobre' | translate}}</span></div>
         </li>
         <li>
-          <img src="assets/flags/brasil.png">
+          <div class="flags">
+            <img (click)="alterarLinguagem('pt-br')" src="assets/flags/brasil.png">
+          </div>
+        </li>
+        <li>
+          <div class="flags">
+            <img (click)="alterarLinguagem('en')" src="assets/flags/united-states.png">
+          </div>
         </li>
       </ul>
     </div>
