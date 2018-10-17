@@ -2,7 +2,7 @@
 
 ## Projeto Finalizado / Finished Project.
 
-## Tecnologias utilizadas / in use technologies:
+## Tecnologias utilizadas / technologies:
   * Angular.
   * Angular Material.
   * HTML5.
