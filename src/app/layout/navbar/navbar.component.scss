@@ -43,6 +43,7 @@ li{
     transition: 2s;
 }
 .fixed{
+    background-size: cover;
     position: fixed;
     z-index: 10000;
 }
