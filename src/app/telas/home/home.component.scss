@@ -182,3 +182,12 @@ a:hover {
     background-image: url('../../../assets/branches.svg'), linear-gradient(65deg,#74c947,#74c947);
     background-size: contain;
 }
+#image-center{
+    height: 450px;
+    width: 100%;
+    background-image: url('../../../assets/study.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
