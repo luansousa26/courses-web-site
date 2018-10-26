@@ -174,3 +174,11 @@ a:hover {
     color: #47d3a0;
     font-weight: bold;
 }
+#imgg{
+    margin-bottom: -300px;
+    height: 100px;
+}
+.leaf{
+    background-image: url('../../../assets/branches.svg'), linear-gradient(65deg,#74c947,#74c947);
+    background-size: contain;
+}

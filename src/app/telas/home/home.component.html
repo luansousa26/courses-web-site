@@ -2,15 +2,15 @@
   <img id="img" src="assets/background/imagem4.jpg">
   <div class="texto">
     <span id="tituloImagem">{{'home.bem-vindo' | translate}}</span>
-    <br/>
-    <br/>
+    <br />
+    <br />
     <span id="textoImagem">{{'home.escola-aberta' | translate}}</span>
-    <br/>
-    <br/>
-    <br/>
+    <br />
+    <br />
+    <br />
     <a id="botao" class="corPadrao-back" routerLink="sobre">{{'botoes.leia-mais' | translate}}</a>
   </div>
-  <div class="corPadrao-back">
+  <div class="leaf">
     <div [@conteudos]="estadoAnimacao" class="conteudos row">
       <div class="col-md-4 col-sm-12">
         <div class="content">
@@ -58,7 +58,7 @@
   </div>
   <div class="col-sm-12 col-md-12 cursos">
     <div class="row">
-      <div style="margin-left: 3%;"class="cursos-content col-md-3 col-sm-12">
+      <div style="margin-left: 3%;" class="cursos-content col-md-3 col-sm-12">
         <div id="informatica" class="cursos-texto">
         </div>
       </div>
@@ -79,19 +79,19 @@
   <div class="corPadrao-back">
     <div class="texto-contato row">
       <div class="espaco-contato col-md-6 col-sm-12">
-          <mat-icon class="icon">location_on</mat-icon><br/>
-          {{'home.localizacao' | translate}}
+        <mat-icon class="icon">location_on</mat-icon><br />
+        {{'home.localizacao' | translate}}
         <agm-map [latitude]="lat" [longitude]="lng" [zoom]="19">
           <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
         </agm-map>
       </div>
       <div class="espaco-contato col-md-6 col-sm-12">
-          <mat-icon class="icon">phone</mat-icon><br/>
-          {{'home.contatos' | translate}}
+        <mat-icon class="icon">phone</mat-icon><br />
+        {{'home.contatos' | translate}}
         <div class="contatos-escritos">
-         Email: luan26@uninove.edu.br<br>
-         {{'home.telefone' | translate}} : 4002-8922<br>
-          Github: <a href="https://github.com/luansousa26">luansousa26</a><br/>
+          Email: luan26@uninove.edu.br<br>
+          {{'home.telefone' | translate}} : 4002-8922<br>
+          Github: <a href="https://github.com/luansousa26">luansousa26</a><br />
           Instagram: <a href="https://www.instagram.com/sousaluan26/">sousaluan26</a>
         </div>
       </div>

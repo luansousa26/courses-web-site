@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, HostListener } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 import { OnDestroy } from '@angular/core';
 import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
@@ -12,14 +12,12 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
       state('inativo', style({
           marginTop: '-30px',
           opacity: '0',
-          background: '#818181'
       })),
       transition('inativo => ativo', [
-        animate(5000, keyframes([
+        animate(6000, keyframes([
           style({
             marginTop: '0px',
             opacity: '1',
-            background: '#47d3a0'
           }),
         ]))
       ]),
@@ -72,4 +70,10 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.displayNextImage();
   }
 
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    if (document.documentElement.scrollTop > 250 && document.documentElement.scrollTop < 300) {
+      console.log('c');
+    }
+      }
 }
