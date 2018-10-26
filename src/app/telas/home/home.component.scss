@@ -1,7 +1,7 @@
 #img{
     margin-top: 70px;
     width: 100%;
-    height: 400px;
+    height: 570px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -182,12 +182,18 @@ a:hover {
     background-image: url('../../../assets/branches.svg'), linear-gradient(65deg,#74c947,#74c947);
     background-size: contain;
 }
-#image-center{
+.image{
     height: 450px;
     width: 100%;
-    background-image: url('../../../assets/study.jpg');
+  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#image-center{
+    background-image: url('../../../assets/study.jpg');
+}
+#image-bottom{
+    background-image: url('../../../assets/pappers.jpg');
 }
