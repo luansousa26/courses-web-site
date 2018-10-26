@@ -69,11 +69,4 @@ export class HomeComponent implements OnInit, OnDestroy {
   startTimer() {
       this.displayNextImage();
   }
-
-  @HostListener('window:scroll', [])
-  onWindowScroll() {
-    if (document.documentElement.scrollTop > 250 && document.documentElement.scrollTop < 300) {
-      console.log('c');
-    }
-      }
 }
