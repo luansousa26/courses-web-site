@@ -44,7 +44,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     (<HTMLImageElement>document.getElementById('img')).src = this.imagensDisponiveis[this.controlador];
   }
 
-  startTimer() {
+  private startTimer(): void {
       this.displayNextImage();
   }
 }
