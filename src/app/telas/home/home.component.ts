@@ -1,7 +1,6 @@
 import { Component, OnInit, Inject, HostListener } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 import { OnDestroy } from '@angular/core';
-import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -29,7 +28,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
   clearInterval(this.controle);
   }
-  displayNextImage() {
+ private displayNextImage(): void  {
     (<HTMLImageElement>document.getElementById('img')).style.opacity = '0.1';
     (<HTMLImageElement>document.getElementById('img')).style.transition = 'opacity 1s linear';
     setTimeout(() => {
@@ -39,7 +38,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     }, 600);
   }
 
-  displayPreviousImage() {
+  private displayPreviousImage(): void {
     this.controlador = (this.controlador <= 0) ? this.imagensDisponiveis.length - 1 : this.controlador - 1;
     (<HTMLImageElement>document.getElementById('img')).src = this.imagensDisponiveis[this.controlador];
   }
