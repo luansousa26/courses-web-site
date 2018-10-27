@@ -15,7 +15,7 @@
 ## Telas / Screens:
 ![image](https://user-images.githubusercontent.com/33549496/47609915-d4de1b80-da1e-11e8-8126-b70ee47195af.png)
 ![image](https://user-images.githubusercontent.com/33549496/47609945-4e760980-da1f-11e8-8452-fa91f4f49244.png)
-![image](https://user-images.githubusercontent.com/33549496/44822022-f06ba800-abce-11e8-8a7c-f66863cc7836.png)
+![image](https://user-images.githubusercontent.com/33549496/47609952-736a7c80-da1f-11e8-95d1-a40a6eddf33f.png)
 ![image](https://user-images.githubusercontent.com/33549496/44822044-1bee9280-abcf-11e8-86c3-3b77a6d951ee.png)
 ![image](https://user-images.githubusercontent.com/33549496/44822100-7ee02980-abcf-11e8-9232-64313e1c4085.png)
 ![image](https://user-images.githubusercontent.com/33549496/43109227-16695d0c-8ebc-11e8-8d15-4dd6048211e6.png)
