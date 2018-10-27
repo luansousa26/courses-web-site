@@ -13,7 +13,7 @@
    * EN
   
 ## Telas / Screens:
-![image](https://user-images.githubusercontent.com/33549496/44945576-c7136d80-adc2-11e8-99bb-0fc42e7d68f5.png)
+![image](https://user-images.githubusercontent.com/33549496/47609915-d4de1b80-da1e-11e8-8126-b70ee47195af.png)
 ![image](https://user-images.githubusercontent.com/33549496/44945578-d09cd580-adc2-11e8-974a-f8ea7ef5361b.png)
 ![image](https://user-images.githubusercontent.com/33549496/44822022-f06ba800-abce-11e8-8a7c-f66863cc7836.png)
 ![image](https://user-images.githubusercontent.com/33549496/44822044-1bee9280-abcf-11e8-86c3-3b77a6d951ee.png)
