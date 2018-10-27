@@ -1,3 +1,4 @@
+$theme-color: #74c947;
 #img{
     margin-top: 70px;
     width: 100%;
@@ -89,7 +90,7 @@
 
 .botao-conteudo{
     background:white;
-    color:#47d3a0 !important;
+    color:$theme-color !important;
     font-weight: bold;
     font-size: 14px;
     line-height: 1;
@@ -157,7 +158,7 @@ a:hover {
  font-weight: bold;
 }
 .text-uppercase{
-    color: #47d3a0;
+    color: $theme-color;
     font-weight: bold;
 }
 #imgg{
