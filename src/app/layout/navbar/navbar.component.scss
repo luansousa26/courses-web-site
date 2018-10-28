@@ -54,7 +54,7 @@ li{
 .toogle{
     display: none;
     padding-right: 10px;
-    color:#47d3a0;
+    color:$cor-menu-animacao;
 }
 .sidenav {
     height: 100%;
@@ -81,7 +81,7 @@ li{
 .sidenav a:hover {
     color: #f1f1f1;
     font-weight: bold;
-    background:#47d3a0;
+    background:$cor-menu-animacao;
 }
 
 .sidenav .closebtn {
@@ -98,7 +98,7 @@ li{
   .sidenav a {font-size: 18px;}
 }
 .textoLogo{
-    color: #47d3a0;
+    color: $cor-menu-animacao;
     border-color: white;
     border-style: solid;
     padding: 10px;
@@ -106,7 +106,7 @@ li{
     font-size: 20px;
 }
 .textoLogo:hover{
-    border-color: #47d3a0;
+    border-color: $cor-menu-animacao;
     font-weight: bold;
 }
 #logoSidNav{
