@@ -6,23 +6,6 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  animations: [
-    trigger('conteudos', [
-      state('ativo', style({})),
-      state('inativo', style({
-          marginTop: '-30px',
-          opacity: '0',
-      })),
-      transition('inativo => ativo', [
-        animate(6000, keyframes([
-          style({
-            marginTop: '0px',
-            opacity: '1',
-          }),
-        ]))
-      ]),
-    ]),
-  ]
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
@@ -32,14 +15,9 @@ export class HomeComponent implements OnInit, OnDestroy {
   lng = -46.7455076;
   navIsFixed: boolean;
   controle: any;
-  estadoAnimacao: any;
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
-    this.estadoAnimacao = 'inativo';
-    setTimeout(() => {
-      this.estadoAnimacao = 'ativo';
-    }, 500);
     this.imagensDisponiveis = [
       'assets/background/imagem1.jpg',
       'assets/background/imagem2.jpg',
