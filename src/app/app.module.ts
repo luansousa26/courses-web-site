@@ -21,7 +21,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   if (isDevMode()) {
     return new TranslateHttpLoader(http);
   }{
-    return new TranslateHttpLoader(http, './courses-web-site/assets/i18n/');
+    return new TranslateHttpLoader(http, 'assets/i18n/');
   }
 }
 @NgModule({
